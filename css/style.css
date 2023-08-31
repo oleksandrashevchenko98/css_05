@@ -12,7 +12,7 @@ body {
   width: 100%;
   font-family: "Phudu";
   font-size: 1.5rem;
-  color: azure;
+  color: #fff;
   border: 2px solid #000;
   background-color: brown;
   text-align: center;
@@ -38,7 +38,8 @@ body {
   column-count: 4;
 }
 
-.searchbox__header {
+.searchbox__header,
+.carpage__heading {
   font-family: "Phudu";
   font-size: 1.25rem;
   font-weight: 700;
@@ -51,10 +52,34 @@ datalist {
   font-size: 0.5rem;
 }
 
+.section {
+  padding-top: 50px;
+  margin: 25px;
+  column-count: 3;
+  column-width: 20%;
+}
+
+.carpage {
+  background-color: burlywood;
+  border: 2px solid #000;
+  margin-bottom: 25px;
+}
+
+.carpage img {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carpage-wrap {
+  padding: 5%;
+  border: 1px solid #000;
+}
+
 .footer {
   width: 100%;
   font-family: "Phudu";
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   color: azure;
   border: 2px solid #000;
   background-color: brown;
