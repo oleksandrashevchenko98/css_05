@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Phudu&family=Raleway&display=swap");
+
+body {
+  background-color: burlywood;
+  font-family: "Raleway";
+  font-weight: 400;
+  color: #1d1b1b;
+}
+
+.header {
+  width: 100%;
+  font-family: "Phudu";
+  font-size: 1.5rem;
+  color: azure;
+  border: 2px solid #000;
+  background-color: brown;
+  text-align: center;
+  line-height: 200%;
+  position: fixed;
+}
+
+.wrapper {
+  padding-top: 55px;
+  width: 75%;
+  margin: 0 auto;
+  background-color: peachpuff;
+  border: 1px solid #000;
+  position: static bottom;
+}
+
+.searchbox {
+  padding: 25px;
+  width: 85%;
+  margin: 0 auto;
+  background-color: burlywood;
+  border: 1px solid #000;
+  column-count: 4;
+}
+
+.searchbox__header {
+  font-family: "Phudu";
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+datalist {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 0.5rem;
+}
+
+.footer {
+  width: 100%;
+  font-family: "Phudu";
+  font-size: 0.5rem;
+  color: azure;
+  border: 2px solid #000;
+  background-color: brown;
+  text-align: center;
+  line-height: 110%;
+}
