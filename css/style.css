@@ -14,11 +14,22 @@ body {
   font-family: "Phudu";
   font-size: 1.5rem;
   color: #eae7dc;
-  border: 5px solid #e85a4f;
+  border: 10px solid #e85a4f;
   background-color: #e98074;
   text-align: center;
   line-height: 200%;
   position: fixed;
+  display: flex;
+}
+
+.header__link {
+  border-right: 10px solid #e85a4f;
+  flex: 1;
+  display: inline-block;
+}
+
+.header__link:hover {
+  background-color: #e85a4f;
 }
 
 .wrapper {
@@ -36,12 +47,37 @@ body {
   margin: 0 auto;
   background-color: #e98074;
   color: #8e342e;
+  font-size: 1rem;
   border: 5px solid #e85a4f;
-  column-count: 4;
+  display: flex;
+}
+
+.searchbox form {
+  margin: 0 auto;
+}
+
+.searchbox legend {
+  padding-bottom: 5px;
+}
+
+.searchbox__column {
+  flex: 1;
+  display: table-cell;
+  padding-right: 40px;
+  justify-content: space-between;
+}
+
+.searchbox__text {
+  font-size: 0.75rem;
+}
+
+.button {
+  background-color: #e85a4f;
 }
 
 .searchbox__header,
-.carpage__heading {
+.carpage__heading,
+.button {
   font-family: "Phudu";
   font-size: 1.25rem;
   font-weight: 700;
