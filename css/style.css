@@ -21,7 +21,8 @@ body {
 .header,
 .footer,
 datalist,
-.carpage h3 {
+.carpage h3,
+.author {
   text-align: center;
 }
 
@@ -136,6 +137,10 @@ datalist {
   margin: 25px;
   column-count: 3;
   column-width: 20%;
+}
+
+.author {
+  padding: 5%;
 }
 
 .carpage {
