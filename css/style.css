@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Phudu&family=Raleway&display=swap");
 
+/*1*/
 body {
   background-color: #d8c3a5;
   font-family: "Raleway";
@@ -10,6 +11,7 @@ body {
   position: relative;
 }
 
+/*10*/
 .header,
 .footer,
 .searchbox__header,
@@ -18,6 +20,7 @@ body {
   font-family: "Phudu";
 }
 
+/*11*/
 .header,
 .footer,
 datalist,
@@ -26,6 +29,7 @@ datalist,
   text-align: center;
 }
 
+/*11*/
 .header,
 .header__link,
 .searchbox,
@@ -35,6 +39,7 @@ datalist,
   color: #eae7dc;
 }
 
+/*10*/
 .header,
 .searchbox,
 .carpage,
@@ -42,12 +47,14 @@ datalist,
   background-color: #292120;
 }
 
+/*10*/
 .searchbox__header,
 .carpage__heading,
 .button {
   font-size: 1.25rem;
 }
 
+/*11*/
 .searchbox__header,
 .carpage__heading,
 .button,
@@ -55,8 +62,15 @@ datalist,
   font-weight: 700;
 }
 
-.header {
+/*11*/
+.header,
+.carpage img,
+.footer {
   width: 100%;
+}
+
+/*10*/
+.header {
   font-size: 1.5rem;
   border: 10px solid #000;
   text-align: center;
@@ -65,6 +79,7 @@ datalist,
   display: flex;
 }
 
+/*10*/
 .header__link {
   border-right: 10px solid #000;
   flex: 1;
@@ -72,11 +87,13 @@ datalist,
   transition: 2s;
 }
 
+/*20*/
 .header__link:hover {
   background-color: #a2615d;
   color: #000;
 }
 
+/*10*/
 .wrapper {
   padding-top: 55px;
   width: 75%;
@@ -86,24 +103,28 @@ datalist,
   position: static bottom;
 }
 
+/*10*/
 .searchbox {
   padding: 25px;
   width: 85%;
-  margin: 0 auto;
   color: #eae7dc;
   font-size: 1rem;
   border: 5px solid #000;
   display: flex;
 }
 
+/*11*/
+.searchbox,
 .searchbox form {
   margin: 0 auto;
 }
 
+/*11*/
 .searchbox legend {
   padding-bottom: 5px;
 }
 
+/*10*/
 .searchbox__column {
   flex: 1;
   display: table-cell;
@@ -111,20 +132,24 @@ datalist,
   justify-content: space-between;
 }
 
+/*10*/
 .searchbox__text {
   font-size: 0.75rem;
 }
 
+/*10*/
 .button {
   background-color: #d8c3a5;
 }
 
+/*1*/
 datalist {
   display: flex;
   justify-content: space-between;
   font-size: 0.5rem;
 }
 
+/*11*/
 .wrapper p {
   font-size: 2rem;
   font-weight: 700;
@@ -132,6 +157,7 @@ datalist {
   padding-top: 5%;
 }
 
+/*10*/
 .section {
   padding-top: 2.5%;
   margin: 25px;
@@ -139,49 +165,56 @@ datalist {
   column-width: 20%;
 }
 
+/*10*/
 .author {
   padding: 5%;
 }
 
+/*10*/
 .carpage {
   border: 5px solid #000;
   margin-bottom: 25px;
 }
 
+/*11*/
 .carpage img {
-  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
+/*10*/
 .carpage__heading {
   font-size: 1.5rem;
   padding: 2%;
 }
 
+/*10*/
 .carpage-wrap {
   padding: 5%;
   margin: 5%;
   border: 2px solid #eae7dc;
 }
 
+/*11*/
 .carpage ul {
   padding-left: 5%;
   padding-bottom: 5%;
 }
 
+/*11*/
 .carpage li {
   padding: 2% 0;
 }
 
+/*10*/
 .footer {
-  width: 100%;
   font-family: "Phudu";
   font-size: 0.8rem;
   border: 5px solid #000;
   line-height: 110%;
 }
 
+/*10*/
 .phone {
   position: fixed;
   bottom: 0;
@@ -190,6 +223,7 @@ datalist {
   transition: 2s;
 }
 
+/*21*/
 .phone img:hover {
   width: 125px;
 }
