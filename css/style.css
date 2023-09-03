@@ -2,19 +2,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Phudu&family=Raleway&display=swap");
 
 body {
-  background-color: burlywood;
+  background-color: #d8c3a5;
   font-family: "Raleway";
   font-weight: 400;
-  color: #1d1b1b;
+  color: #8e8d8a;
+  background-image: url("../img/background.png");
 }
 
 .header {
   width: 100%;
   font-family: "Phudu";
   font-size: 1.5rem;
-  color: #fff;
-  border: 2px solid #000;
-  background-color: brown;
+  color: #eae7dc;
+  border: 5px solid #e85a4f;
+  background-color: #e98074;
   text-align: center;
   line-height: 200%;
   position: fixed;
@@ -24,8 +25,8 @@ body {
   padding-top: 55px;
   width: 75%;
   margin: 0 auto;
-  background-color: peachpuff;
-  border: 1px solid #000;
+  border: 10px solid rgb(096, 083, 073);
+  background-color: #eae7dc;
   position: static bottom;
 }
 
@@ -33,8 +34,9 @@ body {
   padding: 25px;
   width: 85%;
   margin: 0 auto;
-  background-color: burlywood;
-  border: 1px solid #000;
+  background-color: #e98074;
+  color: #8e342e;
+  border: 5px solid #e85a4f;
   column-count: 4;
 }
 
@@ -60,9 +62,10 @@ datalist {
 }
 
 .carpage {
-  background-color: burlywood;
-  border: 2px solid #000;
+  background-color: #e98074;
+  border: 5px solid #e85a4f;
   margin-bottom: 25px;
+  color: #8e342e;
 }
 
 .carpage img {
@@ -73,16 +76,16 @@ datalist {
 
 .carpage-wrap {
   padding: 5%;
-  border: 1px solid #000;
+  border: 2px solid #e85a4f;
 }
 
 .footer {
   width: 100%;
   font-family: "Phudu";
   font-size: 0.8rem;
-  color: azure;
-  border: 2px solid #000;
-  background-color: brown;
+  color: #eae7dc;
+  border: 5px solid #e85a4f;
+  background-color: #e98074;
   text-align: center;
   line-height: 110%;
 }
