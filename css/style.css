@@ -7,15 +7,57 @@ body {
   font-weight: 400;
   color: #8e8d8a;
   background-image: url("../img/background.png");
+  position: relative;
+}
+
+.header,
+.footer,
+.searchbox__header,
+.carpage__heading,
+.button {
+  font-family: "Phudu";
+}
+
+.header,
+.footer,
+datalist,
+.carpage h3 {
+  text-align: center;
+}
+
+.header,
+.header__link,
+.searchbox,
+.carpage,
+.carpage a,
+.footer {
+  color: #eae7dc;
+}
+
+.header,
+.searchbox,
+.carpage,
+.footer {
+  background-color: #292120;
+}
+
+.searchbox__header,
+.carpage__heading,
+.button {
+  font-size: 1.25rem;
+}
+
+.searchbox__header,
+.carpage__heading,
+.button,
+.carpage span {
+  font-weight: 700;
 }
 
 .header {
   width: 100%;
-  font-family: "Phudu";
   font-size: 1.5rem;
-  color: #eae7dc;
-  border: 10px solid #e85a4f;
-  background-color: #e98074;
+  border: 10px solid #000;
   text-align: center;
   line-height: 200%;
   position: fixed;
@@ -23,13 +65,15 @@ body {
 }
 
 .header__link {
-  border-right: 10px solid #e85a4f;
+  border-right: 10px solid #000;
   flex: 1;
   display: inline-block;
+  transition: 2s;
 }
 
 .header__link:hover {
-  background-color: #e85a4f;
+  background-color: #a2615d;
+  color: #000;
 }
 
 .wrapper {
@@ -45,10 +89,9 @@ body {
   padding: 25px;
   width: 85%;
   margin: 0 auto;
-  background-color: #e98074;
-  color: #8e342e;
+  color: #eae7dc;
   font-size: 1rem;
-  border: 5px solid #e85a4f;
+  border: 5px solid #000;
   display: flex;
 }
 
@@ -72,36 +115,32 @@ body {
 }
 
 .button {
-  background-color: #e85a4f;
-}
-
-.searchbox__header,
-.carpage__heading,
-.button {
-  font-family: "Phudu";
-  font-size: 1.25rem;
-  font-weight: 700;
+  background-color: #d8c3a5;
 }
 
 datalist {
   display: flex;
-  text-align: center;
   justify-content: space-between;
   font-size: 0.5rem;
 }
 
+.wrapper p {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 5%;
+}
+
 .section {
-  padding-top: 50px;
+  padding-top: 2.5%;
   margin: 25px;
   column-count: 3;
   column-width: 20%;
 }
 
 .carpage {
-  background-color: #e98074;
-  border: 5px solid #e85a4f;
+  border: 5px solid #000;
   margin-bottom: 25px;
-  color: #8e342e;
 }
 
 .carpage img {
@@ -110,18 +149,42 @@ datalist {
   text-align: center;
 }
 
+.carpage__heading {
+  font-size: 1.5rem;
+  padding: 2%;
+}
+
 .carpage-wrap {
   padding: 5%;
-  border: 2px solid #e85a4f;
+  margin: 5%;
+  border: 2px solid #eae7dc;
+}
+
+.carpage ul {
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.carpage li {
+  padding: 2% 0;
 }
 
 .footer {
   width: 100%;
   font-family: "Phudu";
   font-size: 0.8rem;
-  color: #eae7dc;
-  border: 5px solid #e85a4f;
-  background-color: #e98074;
-  text-align: center;
+  border: 5px solid #000;
   line-height: 110%;
+}
+
+.phone {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 25px;
+  transition: 2s;
+}
+
+.phone img:hover {
+  width: 125px;
 }
