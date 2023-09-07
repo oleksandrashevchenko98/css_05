@@ -245,36 +245,36 @@
                 value="green" /><label for="color5">Green</label>
               <input
                 type="checkbox"
-                id="color5"
-                name="color5"
-                value="blue" /><label for="color5">Blue</label>
-              <input
-                type="checkbox"
                 id="color6"
                 name="color6"
-                value="brown" /><label for="color6">Brown</label>
-              <br />
+                value="blue" /><label for="color6">Blue</label>
               <input
                 type="checkbox"
                 id="color7"
                 name="color7"
-                value="purple" /><label for="color7">Purple</label>
+                value="brown" /><label for="color7">Brown</label>
+              <br />
               <input
                 type="checkbox"
                 id="color8"
                 name="color8"
-                value="red" /><label for="color8">Pink</label>
+                value="purple" /><label for="color8">Purple</label>
+              <input
+                type="checkbox"
+                id="color9"
+                name="color9"
+                value="red" /><label for="color9">Pink</label>
             </fieldset>
           </div>
           <div class="searchbox__column">
             <fieldset>
               <legend class="searchbox__header">Price ($ USD):</legend>
-              <label for="price" class="searchbox__text">from: </label>
+              <label for="price-from" class="searchbox__text">from: </label>
               <br />
               <input
                 type="range"
-                id="price"
-                name="price"
+                id="price-from"
+                name="price-from"
                 min="3000"
                 max="20000" />
               <datalist id="values">
@@ -284,12 +284,12 @@
                 <option value="15000" label="15000"></option>
                 <option value="20000" label="20000"></option>
               </datalist>
-              <label for="price" class="searchbox__text">to: </label>
+              <label for="price-to" class="searchbox__text">to: </label>
               <br />
               <input
                 type="range"
-                id="price"
-                name="price"
+                id="price-to"
+                name="price-to"
                 min="3000"
                 max="20000" />
               <datalist id="values">
@@ -303,21 +303,31 @@
             <br />
             <fieldset>
               <legend class="searchbox__header">Year:</legend>
-              <label for="year" class="searchbox__text"> from:</label>
+              <label for="year-from" class="searchbox__text"> from:</label>
               <br />
-              <input type="range" id="year" name="year" min="2005" max="2020" />
+              <input
+                type="range"
+                id="year-from"
+                name="year-from"
+                min="2005"
+                max="2020" />
               <datalist id="values">
                 <option value="2005" label="2005"></option>
                 <option value="2010" label="2010"></option>
                 <option value="2015" label="2015"></option>
                 <option value="2020" label="2020"></option>
               </datalist>
-              <label for="year" class="searchbox__text"
+              <label for="year-to" class="searchbox__text"
                 ><br />
                 to:</label
               >
               <br />
-              <input type="range" id="year" name="year" min="2005" max="2020" />
+              <input
+                type="range"
+                id="year-to"
+                name="year-to"
+                min="2005"
+                max="2020" />
               <datalist id="values">
                 <option value="2005" label="2005"></option>
                 <option value="2010" label="2010"></option>
@@ -352,7 +362,7 @@
             <li><span>Brand:</span> Volkswagen</li>
             <li><span>Country:</span> Germany</li>
             <li><span>Status:</span> Uncleared</li>
-            <a href="#">Read more about this car...</a>
+            <li><a href="#">Read more about this car...</a></li>
           </ul>
         </div>
         <div class="carpage">
@@ -364,7 +374,7 @@
             <li><span>Brand:</span> Peugeot</li>
             <li><span>Country:</span> France</li>
             <li><span>Status:</span> New</li>
-            <a href="#">Read more about this car...</a>
+            <li><a href="#">Read more about this car...</a></li>
           </ul>
         </div>
         <div class="carpage">
@@ -376,7 +386,7 @@
             <li><span>Brand:</span> Toyota</li>
             <li><span>Country:</span> Japan</li>
             <li><span>Status:</span> Used</li>
-            <a href="#">Read more about this car...</a>
+            <li><a href="#">Read more about this car...</a></li>
           </ul>
         </div>
         <div class="carpage">
@@ -388,7 +398,7 @@
             <li><span>Brand:</span> Mercedes</li>
             <li><span>Country:</span> USA</li>
             <li><span>Status:</span> On credit</li>
-            <a href="#">Read more about this car...</a>
+            <li><a href="#">Read more about this car...</a></li>
           </ul>
         </div>
         <div class="carpage">
@@ -400,7 +410,7 @@
             <li><span>Brand:</span> BMW</li>
             <li><span>Country:</span> USA</li>
             <li><span>Status:</span> New</li>
-            <a href="#">Read more about this car...</a>
+            <li><a href="#">Read more about this car...</a></li>
           </ul>
         </div>
       </section>
